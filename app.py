@@ -61,7 +61,7 @@ Philippe is the principal architect at a condo-development firm in Paris. He liv
 """
 
 # Authentication
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Define app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
