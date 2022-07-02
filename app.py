@@ -95,7 +95,7 @@ controls = dbc.InputGroup(
 app.layout = dbc.Container(
     fluid=False,
     children=[
-        Header("Dash GPT-3 Chatbot", app),
+        Header("Dash GPT-3 Chatbot using Heroku", app),
         html.Hr(),
         dcc.Store(id="store-conversation", data=""),
         conversation,
