@@ -164,4 +164,4 @@ def run_chatbot(n_clicks, n_submit, user_input, chat_history):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run_server(debug=True)
