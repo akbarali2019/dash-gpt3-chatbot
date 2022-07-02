@@ -14,7 +14,7 @@ import openai
 def Header(name, app):
     title = html.H1(name, style={"margin-top": 5})
     logo = html.Img(
-        src=app.get_asset_url("dash-logo.png"), style={"float": "right", "height": 60}
+        src=app.get_asset_url("inje-logo.png"), style={"float": "right", "height": 60}
     )
     return dbc.Row([dbc.Col(title, md=8), dbc.Col(logo, md=4)])
 
@@ -88,7 +88,7 @@ conversation = html.Div(
 controls = dbc.InputGroup(
     children=[
         dbc.Input(id="user-input", placeholder="Write to the chatbot...", type="text"),
-        dbc.InputGroupAddon(dbc.Button("Submit", id="submit"), addon_type="append"),
+        dbc.InputGroupAddon(dbc.Button("Write", id="submit"), addon_type="append"),
     ]
 )
 
