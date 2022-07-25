@@ -60,9 +60,9 @@ description = """
 Philippe is the principal architect at a condo-development firm in Paris. He lives with his girlfriend of five years in a 2-bedroom condo, with a small dog named Coco. Since the pandemic, his firm has seen a  significant drop in condo requests. As such, he’s been spending less time designing and more time on cooking,  his favorite hobby. He loves to cook international foods, venturing beyond French cuisine. But, he is eager  to get back to architecture and combine his hobby with his occupation. That’s why he’s looking to create a  new design for the kitchens in the company’s current inventory. Can you give him advice on how to do that?
 """
 
-# Authentication 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
-key1 = 'sk-5Dc2USLLV71s82yubZ4d'
-key2 = 'T3BlbkFJ52fi3YTnKRHrcb8Yfr4e'
+# Authentication 
+key1 = 'sk-UxuZfZJOJYg4ePe'
+key2 = 'DxXQQT3BlbkFJSykHJs7sBAwP0TnTnNt4'
 openai.api_key = f"{key1}{key2}"
 
 # Define app
